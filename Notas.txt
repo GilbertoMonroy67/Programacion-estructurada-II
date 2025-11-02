@@ -1,0 +1,53 @@
+¿Que es la programacion?
+La programacion es en escencia, el arte de dar instrucciones a una computadora para que realice una tarea o resuelva un problema especifico.
+
+¿Cuales son los componentes clave de la programacion?
+    Algoritmo: 
+        Es la secuencia ordenada y finita de pasos que resuelven el problema. El programador primero diseña el algoritmo y luego codifico.
+
+    Lenguaje de programacion:
+        Es el
+    Codigo fuente
+
+¿Que es una estructura?
+En el contexto de la programacion, una estructura es un tipo de dato definido por el usuario que agrupa logicamente
+
+caracteristicas de una estructura
+    Agrupacion logica
+        Permite manejar multiples piezas de informacion relacionada como una sola unidad.
+    
+    Heterogeneidad:
+        A diferencia de un array(que solo puede contener elementos del mismo tipo), una estructura puede contener datos de diferente tipo.
+
+Sintaxis comun(c++)
+La palablra clave para definir una estructura suele ser struct
+
+//Definicion de la estructura
+struct Persona{
+    char nombre [50]; //Tipo 1: Array de caracteres
+    int edad, //Tipo2: entero
+    float altura; //Tipo3: flotante
+};
+
+//Declaracion de una variable de ese tipo de estructura
+struct Persona mi_amigo;
+
+**¿Que es la programacion estructurada?**
+Es un paradigma de programacion que tiene como objetivo principal mejorar la claridad, calidad y tiempo de desarrollo de un programa de computadora.
+Es una metodologia que busca simplificar la logica de un programa, basandose en la idea de cualquier algoritmo puede ser codificado utilizando unicamente la secuencia.
+
+Estructuras dinamicas de datos
+    Estas estrructuras utilizan las direcciones para crear enlaces entre datos que no estan ubicados fisicamente uno al lado del otro
+
+    Estructura                           Relacion con direcciones
+        Listas, enlazadas, pilas, colas {
+            Cada elemento(nodo) tiene un campo apuntador que almacena la direccion del siguiente elemento en la secuencia,creando un "enlace logico".
+        }
+        Arboles{
+            Cada nodo almacena las direcciones de sus nodos hijos (izquierda  y derecha), lo que define la jerarquia de la estructura.
+        }
+        Solicitud y liberacion de espacio{
+            Se gestionan explicitamente las direcciones de bloques de memoria para que el sistema operativo pueda asignarlas y recuperarlas
+        }
+
+**Proyecto**

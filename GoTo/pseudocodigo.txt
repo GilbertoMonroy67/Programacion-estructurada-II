@@ -1,0 +1,61 @@
+INICIO
+
+REPETIR
+    MOSTRAR "¿Qué operación desea realizar?"
+    MOSTRAR "1. Suma"
+    MOSTRAR "2. Resta"
+    MOSTRAR "3. Multiplicación"
+    MOSTRAR "4. Salir"
+    LEER opcion
+
+    SEGÚN opcion HACER
+        CASO 1:
+            REPETIR
+                MOSTRAR "Ingrese el primer valor"
+                LEER a
+                MOSTRAR "Ingrese el segundo valor"
+                LEER b
+                c ← a + b
+                MOSTRAR "Resultado: ", c
+                MOSTRAR "¿Desea realizar otra suma? (1=Sí, 2=No)"
+                LEER opcion1
+            MIENTRAS opcion1 = 1
+        FIN CASO
+
+        CASO 2:
+            REPETIR
+                MOSTRAR "Ingrese el primer valor"
+                LEER a
+                MOSTRAR "Ingrese el segundo valor"
+                LEER b
+                c ← a - b
+                MOSTRAR "Resultado: ", c
+                MOSTRAR "¿Desea realizar otra resta? (1=Sí, 2=No)"
+                LEER opcion2
+            MIENTRAS opcion2 = 1
+        FIN CASO
+
+        CASO 3:
+            REPETIR
+                MOSTRAR "Ingrese el primer valor"
+                LEER a
+                MOSTRAR "Ingrese el segundo valor"
+                LEER b
+                c ← a * b
+                MOSTRAR "Resultado: ", c
+                MOSTRAR "¿Desea realizar otra multiplicación? (1=Sí, 2=No)"
+                LEER opcion3
+            MIENTRAS opcion3 = 1
+        FIN CASO
+
+        CASO 4:
+            MOSTRAR "Muchas gracias. Cerrando programa..."
+        FIN CASO
+
+        DE OTRO MODO:
+            MOSTRAR "Opción no válida, intente de nuevo."
+    FIN SEGÚN
+
+HASTA opcion = 4
+
+FIN

@@ -1,0 +1,44 @@
+ALGORITMO ¿Como se usa GoTo?
+
+Objetivo:
+Realizar operaciones básicas (suma, resta o multiplicación) según la elección del usuario, repitiendo hasta que elija salir.
+
+Pasos:
+
+1-Iniciar el programa.
+2- Mostrar el menú de opciones:
+    1-Suma
+    2-Resta
+    3-Multiplicación
+    4-Salir
+
+3-Leer la opción elegida por el usuario.
+4-Según la opción:
+    *Si elige 1:
+        *Pedir dos números.
+        *Calcular la suma y mostrar el resultado.
+        *Preguntar si desea hacer otra suma.
+        *Si sí → repetir paso 4.1.
+        *Si no → volver al menú principal.
+
+    *Si elige 2:
+        *Pedir dos números.
+        *Calcular la resta y mostrar el resultado.
+        *Preguntar si desea hacer otra resta.
+        *Si sí → repetir paso 4.2.
+        *Si no → volver al menú principal.
+
+    *Si elige 3:
+        *Pedir dos números.
+        *Calcular la multiplicación y mostrar el resultado.
+        *Preguntar si desea hacer otra multiplicación.
+        *Si sí → repetir paso 4.3.
+        *Si no → volver al menú principal.
+
+    *Si elige 4:
+        *Mostrar mensaje de despedida y finalizar el programa.
+
+    *Si elige otra opción:
+        *Mostrar mensaje de error y regresar al menú principal.
+
+5-Fin del programa.

@@ -1,0 +1,26 @@
+DIAGRAMA DE FLUJO (Descriptivo)
+
+1.Inicio
+2.Mostrar menú de opciones
+3.Leer opción
+4.Decisión (opción):
+    1 → Suma
+        Pedir 2 números
+        Calcular a + b
+        Mostrar resultado
+        Preguntar si desea repetir
+        Si "Sí" → volver a suma
+        Si "No" → volver al menú
+
+    2 → Resta
+        Igual que anterior, pero con a - b
+
+    3 → Multiplicación
+        Igual que anterior, pero con a * b
+
+    4 → Salir
+        Mostrar “Gracias” y finalizar
+
+    Otro valor →
+        Mostrar error y volver al menú
+5.Fin

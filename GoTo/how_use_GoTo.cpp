@@ -98,5 +98,6 @@ salto4:
         cout << "Opcion no valida, intenta de nuevo\n";
         goto salto1;
         break;
+        
     }
 }
